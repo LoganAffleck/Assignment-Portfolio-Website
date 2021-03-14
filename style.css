@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&family=Overpass+Mono&display=swap');
+
+* {
+    color: #944d4d;
+    background: #FCEDED;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12px;
+}
+
+* ::selection{
+    background:#ebc7c7;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+header {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{font-size: 17px;}
+
+h2{font-size: 17px;}
+
+h3 {
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    background-color: white;
+    padding: 5px;
+    transition: background-color .3s;
+    
+   
+}
+
+a:hover {background-color: #ebc7c7;}
+
+p{
+    font-family: 'Overpass Mono', monospace;
+}
+
+hr{
+    border-color: #944d4d;
+    border-width: .25px;
+    opacity: 20%;
+}
+
+li{
+    font-family: 'Overpass Mono', monospace;
+    margin: 15px;
+}
+
+main {
+    width: 400px;
+}
+
+#headimg{
+    border-radius: 300px;
+    box-shadow: 0px 0px 200px #fccccc;
+    margin-bottom: 40px;
+}
