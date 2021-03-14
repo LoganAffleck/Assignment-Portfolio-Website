@@ -7,7 +7,7 @@
     background: #FCEDED;
     font-family: 'Libre Baskerville', serif;
     font-size: 12px;
-    text-align: justify;
+    text-align: left;
 }
 
 /*Set a custom selection highlight color*/
@@ -33,10 +33,12 @@ header {
 
 h1, h2{font-size: 17px;}
 
-h3 {
+.introTitle {
     font-style: italic;
     margin-top: 0px;
     margin-bottom: 5px;
+    font-size: 12px;
+    
 }
 
 /*Links are styled to italic type with a white highlight. Any CSS properties that change will have a .3 second animation trasition.*/
@@ -75,4 +77,6 @@ main {
     border-radius: 300px;
     box-shadow: 0px 0px 200px #fccccc;
     margin-bottom: 40px;
+    height: auto;
+    width: 200px;
 }
