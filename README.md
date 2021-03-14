@@ -36,7 +36,7 @@ doctype, html, head, body, meta, title,
 h1, h2, h3, p, link, ul, ol, img, a, hr
  ```
  
- *The following CSS properties:
+ * The following CSS properties:
  ```
  background, color, font-family, font-size,
  height, margin, padding, text-align
